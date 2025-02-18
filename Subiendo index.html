@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolucionando el Mercado Inmobiliario con IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: white;
+            background: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background: #0056b3;
+        }
+        .email-input {
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Página cargada completamente");
+        });
+        
+        function handleJoinClick() {
+            console.log("Botón 'Únete a la Lista de Espera' clickeado");
+            let email = document.querySelector(".email-input").value;
+            console.log("Email ingresado: ", email);
+            if (!email) {
+                console.log("Error: No se ingresó un email");
+            } else {
+                console.log("Email válido ingresado, procesando...");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Encuentra tu Propiedad Ideal con IA</h1>
+        <p>Elimina intermediarios y accede a las mejores oportunidades de inversión inmobiliaria con tecnología avanzada.</p>
+        <input type="email" class="email-input" placeholder="Introduce tu email" required>
+        <br>
+        <a href="#" class="cta-button" onclick="handleJoinClick()">Únete a la Lista de Espera</a>
+    </div>
+</body>
+</html>
